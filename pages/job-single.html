@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Single</title>
+    <link rel="stylesheet" href="../dist/css/app.css">
+    <script src="../dist/js/app.js" defer></script>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header">
+          <!-- Top menu -->
+          <nav class="menu fixed-top">
+            <div class="menu__container">
+                <div class="brand flex-grow-1">
+                    <a href="../index.html">
+                        <img src="../assets/svgs/logo.svg" alt="">
+                    </a>
+                </div>
+                <ul class="menu__items d-none d-lg-flex">
+                    <li class="menu__item"><a href=""> How It Works</a></li>
+                    <li class="menu__item"><a href=""> Find Jobs <i class="fas fa-caret-down fa-fw"></i></a>
+                        <ul class="menu-dropdown">
+                            <li class="menu-dropdown__item"><a href="job-list.html">Job List</a></li>
+                            <li class="menu-dropdown__item"><a href="job-single.html">Job Single</a></li>
+                            <li class="menu-dropdown__item"><a href="post-job.html">Post A Job</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu__item"><a href=""> Employers <i class="fas fa-caret-down fa-fw"></i></a>
+                        <ul class="menu-dropdown">
+                            <li class="menu-dropdown__item"><a href="employer-list.html">Employer List</a></li>
+                            <li class="menu-dropdown__item"><a href="employer-single.html">Employer Single</a>
+                            </li>
+                            <li class="menu-dropdown__item"><a href="employer-profile.html">Employer Profile</a>
+                            </li>
+                            <li class="menu-dropdown__item"><a href="employer-dashboard.html">Employer
+                                    Dashboard</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu__item"><a href=""> Freelancers <i class="fas fa-caret-down fa-fw"></i></a>
+                        <ul class="menu-dropdown">
+                            <li class="menu-dropdown__item"><a href="hire-freelancer.html">Hire A Freelancer</a>
+                            </li>
+                            <li class="menu-dropdown__item"><a href="freelancer-single.html">Freelancer Single</a>
+                            </li>
+                            <li class="menu-dropdown__item"><a href="freelancer-profile.html">Freelancer
+                                    Profile</a></li>
+                            <li class="menu-dropdown__item"><a href="freelancer-dashboard.html">Freelancer
+                                    Dashboard</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu__item"><a href=""> Pages <i class="fas fa-caret-down fa-fw"></i></a>
+                        <ul class="menu-dropdown">
+                            <li class="menu-dropdown__item"><a href="blog-list.html">Blog List</a></li>
+                            <li class="menu-dropdown__item"><a href="blog-single.html">Blog Single</a></li>
+                            <li class="menu-dropdown__item"><a href="project-list.html">Project List</a></li>
+                            <li class="menu-dropdown__item"><a href="project-single.html">Project Single</a></li>
+                            <li class="menu-dropdown__item"><a href="sign-in">Sign In/Login</a></li>
+                            <li class="menu-dropdown__item"><a href="sign-up">Sign up/Register</a></li>
+                            <li class="menu-dropdown__item"><a href="pricing-plan.html">Pricing Plan</a></li>
+                            <li class="menu-dropdown__item"><a href="error.html">Error Page</a></li>
+                            <li class="menu-dropdown__item"><a href="payment.html">Payment Page</a></li>
+                            <li class="menu-dropdown__item"><a href="checkout.html">Checkout Page</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu__item"><a href="sign-in.html"> Sign In</a></li>
+                </ul>
+                <a href="#" class="btn btn-outline-primary px-3 font-weight-normal d-none d-lg-block">
+                    Join
+                </a>
+
+                <div class="menu-bar d-lg-none">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+
+            </div>
+        </nav>
+        <!-- End Top Menu -->
+
+        <!-- Sidebar start -->
+        <div class="sidebar d-lg-none">
+            <div class="sidebar__container">
+
+                <ul class="sidebar__links mt-5">
+                    <li class="sidebar__item"><a href="javascript:void(0)">How it works</a></li>
+                    <li class="sidebar__item"><a href="javascript:void(0)">Find Jobs <i
+                                class="fas fa-caret-down ms-auto"></i></a>
+                        <ul class="sidebar-dropdown">
+                            <li class="sidebar-dropdown__item"><a href="job-list.html">Job List</a></li>
+                            <li class="sidebar-dropdown__item"><a href="job-single.html">Job Single</a></li>
+                            <li class="sidebar-dropdown__item"><a href="post-job.html">Post A Job</a></li>
+                        </ul>
+                    </li>
+                    <li class="sidebar__item"><a href="javascript:void(0)">Employer <i
+                                class="fas fa-caret-down ms-auto"></i></a>
+                        <ul class="sidebar-dropdown">
+                            <li class="sidebar-dropdown__item"><a href="employer-list.html">Employer List</a></li>
+                            <li class="sidebar-dropdown__item"><a href="employer-single.html">Employer Single</a>
+                            </li>
+                            <li class="sidebar-dropdown__item"><a href="employer-profile.html">Employer
+                                    Profile</a>
+                            </li>
+                            <li class="sidebar-dropdown__item"><a href="employer-dashboard.html">Employer
+                                    Dashboard</a></li>
+                        </ul>
+
+                    </li>
+                    <li class="sidebar__item"><a href="javascript:void(0)">Freelancer <i
+                                class="fas fa-caret-down ms-auto"></i></a>
+
+                        <ul class="sidebar-dropdown">
+                            <li class="sidebar-dropdown__item"><a href="hire-freelancer.html">Hire A
+                                    Freelancer</a>
+                            </li>
+                            <li class="sidebar-dropdown__item"><a href="freelancer-single.html">Freelancer
+                                    Single</a>
+                            </li>
+                            <li class="sidebar-dropdown__item"><a href="freelancer-profile.html">Freelancer
+                                    Profile</a></li>
+                            <li class="sidebar-dropdown__item"><a href="freelancer-dashboard.html">Freelancer
+                                    Dashboard</a></li>
+                        </ul>
+
+                    </li>
+
+                    <li class="sidebar__item"><a href="javascript:void(0)">Pages <i
+                                class="fas fa-caret-down ms-auto"></i></a>
+
+                        <ul class="sidebar-dropdown">
+                            <li class="sidebar-dropdown__item"><a href="blog-list.html">Blog List</a></li>
+                            <li class="sidebar-dropdown__item"><a href="blog-single.html">Blog Single</a></li>
+                            <li class="menu-dropdown__item"><a href="project-list.html">Project List</a></li>
+                            <li class="menu-dropdown__item"><a href="project-single.html">Project Single</a></li>
+                            <li class="sidebar-dropdown__item"><a href="sign-in">Sign In/Login</a></li>
+                            <li class="sidebar-dropdown__item"><a href="sign-up">Sign up/Register</a></li>
+                            <li class="sidebar-dropdown__item"><a href="pricing-plan.html">Pricing Plan</a></li>
+                            <li class="sidebar-dropdown__item"><a href="error.html">Error Page</a></li>
+                            <li class="sidebar-dropdown__item"><a href="payment.html">Payment Page</a></li>
+                            <li class="sidebar-dropdown__item"><a href="checkout.html">Checkout Page</a></li>
+                        </ul>
+
+                    </li>
+                </ul>
+
+                <div class="px-3 py-2 mb-3">
+                    <button class="btn btn-primary w-100 rounded-pill text-white">Join</button>
+                    <button class="btn btn-outline-primary w-100 rounded-pill mt-2 ">Sign In</button>
+                </div>
+            </div>
+        </div>
+        <!-- Sidebar end -->
+
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <div class="row py-4 align-items-center">
+                    <div class="col-md-8 d-flex flex-column">
+                        <div class="text-white">
+                            <i class="fas fa-clock"></i>
+                            <span >Posted 17 hours ago </span>
+                            <span>|</span>
+                            <span class="me-2">2 days left</span>
+                            <span class="badge bg-primary rounded-pill">Open</span>
+                        </div>
+                        <h3 class="text-white fw-bold mt-2">Need a Fullstack Web Developer</h3>
+                        <h5 class="text-white">
+                            <span>Fixed Price</span>
+                            <span>|</span>
+                            <span>Budget $200.00 - 700.00 USD</span>
+                        </h5>
+                    </div>
+                    <div class="col-md-4 text-md-end">
+                        <button class="btn btn-primary px-4 me-2">
+                            <span>Bid Now</span>
+                        </button>
+                        <button class="btn btn-outline-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Save as favourite">
+                            <i class="fas fa-star fa-outline"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Page Header -->
+
+        <section class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="card border-0 rounded-0">
+                            <div class="card-body p-4">
+                                <div>
+                                    <h5 class="fw-bold">Description</h5>
+                                    <p class="text-justify">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt impedit ab, 
+                                        corporis deleniti tenetur magnam. Eos nesciunt magni obcaecati vitae facere nemo. 
+                                        Omnis ipsam ratione repudiandae ex debitis officia dignissimos fugiat nobis exercitationem, 
+                                        vel itaque libero sequi natus deserunt aperiam esse quidem! Aliquam laboriosam recusandae 
+                                        perferendis dolorum exercitationem ipsa dignissimos a deleniti, enim voluptatum impedit 
+                                        facilis accusantium doloribus tempore, soluta provident, quidem tempora ad? Temporibus 
+                                        eius laudantium assumenda, ab iste itaque reiciendis, nihil excepturi perspiciatis, 
+                                        voluptatum harum. Tempore alias quo omnis assumenda fuga, explicabo voluptates ea repellendus 
+                                        rem magni repellat laborum hic esse voluptas cupiditate voluptatem? Blanditiis quaerat inventore explicabo?
+                                    </p>
+                                    <ul class="ps-3 mt-2">
+                                        <li>Lorem ipsum dolor sit amet consectetur</li>
+                                        <li>Lorem ipsum dolor sit amet consectetur</li>
+                                        <li>Lorem ipsum dolor sit amet consectetur</li>
+                                        <li>Lorem ipsum dolor sit amet consectetur</li>
+                                        <li>Lorem ipsum dolor sit amet consectetur</li>
+                                    </ul>
+                                </div>
+
+                                <div class="mt-3">
+                                    <h5 class="fw-bold">Attachments</h5>
+                                    <a href="#" class="text-decoration-none text-black d-block"><i class="fas fa-file-pdf fa-fw"></i> <span>description.pdf</span></a>
+                                    <a href="#" class="text-decoration-none text-black d-block"><i class="fas fa-file-image fa-fw"></i> <span>screenshot.png</span></a>
+                                    <a href="#" class="text-decoration-none text-black d-block"><i class="fas fa-file fa-fw"></i> <span>read-more.txt</span></a>
+                                </div>
+
+                                <div class="mt-3">
+                                    <h5 class="fw-bold">Categories</h5>
+                                    <div class="mt-2">
+                                        <a href="#" class="btn btn-outline-primary btn-sm rounded-pill px-3">Web Design</a>
+                                        <a href="#" class="btn btn-outline-primary btn-sm rounded-pill px-3">Web Development</a>
+                                    </div>  
+                                </div>
+
+                                <div class="mt-3">
+                                    <h5 class="fw-bold">Skills</h5>
+                                    <div class="mt-2">
+                                        <a href="#" class="btn btn-outline-primary btn-sm rounded-pill px-3">PHP</a>
+                                        <a href="#" class="btn btn-outline-primary btn-sm rounded-pill px-3">Javascript</a>
+                                        <a href="#" class="btn btn-outline-primary btn-sm rounded-pill px-3">Laravel</a>
+                                        <a href="#" class="btn btn-outline-primary btn-sm rounded-pill px-3">HTML5 & CSS3</a>
+                                    </div>  
+                                </div>
+
+                                <div class="mt-3">
+                                    <h5 class="fw-bold">
+                                        About the Employer
+                                    </h5>
+                                    <div class="mt-2">
+                                        <span class="badge bg-primary rounded-pill me-2">5.0</span>
+                                        <span class="rating me-2">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </span>
+                                        <span>(22 reviews)</span>
+                                    </div>
+                                    <div class="mt-2">Member Since: Dec 29, 2020</div>
+                                    <div class="mt-2">Total Spend: $2000.00 USD</div>
+                                </div>
+
+                                <div class="mt-3">
+                                    <a href="#" class="text-decoration-none text-black me-3"><i class="fas fa-share-alt fa-fw text-primary"></i> <span>Share this Job</span></a>
+                                    <a href="#" class="text-decoration-none text-black"><i class="fas fa-flag fa-fw text-primary"></i> <span>Report this Job</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-4 mt-md-0">
+                        <div class="card border-0 rounded-0">
+                            <div class="card-body p-4">
+                                <h5 class="fw-bold">More Jobs From this Employer</h5>
+                                <ul class="ps-3 mt-3">
+                                    <li class="lh-lg"><a href="#">2 Website Design & Development</a></li>
+                                    <li class="lh-lg"><a href="#">IOS/Android Application Development, Need for urgent basis</a></li>
+                                    <li class="lh-lg"><a href="#">Import some promotional campaign data</a></li>
+                                    <li class="lh-lg"><a href="#">Need an image recognition application</a></li>
+                                    <li class="lh-lg"><a href="#">Create a shopify clone for me</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="card border-0 rounded-0 mt-4">
+                            <div class="card-body p-4">
+                                <h5 class="fw-bold">Similar Jobs</h5>
+                                <ul class="ps-3 mt-3">
+                                    <li class="lh-lg"><a href="#">2 Website Design & Development</a></li>
+                                    <li class="lh-lg"><a href="#">IOS/Android Application Development, Need for urgent basis</a></li>
+                                    <li class="lh-lg"><a href="#">Import some promotional campaign data</a></li>
+                                    <li class="lh-lg"><a href="#">Need an image recognition application</a></li>
+                                    <li class="lh-lg"><a href="#">Create a shopify clone for me</a></li>
+                                    <li class="lh-lg"><a href="#">2 Website Design & Development</a></li>
+                                    <li class="lh-lg"><a href="#">IOS/Android Application Development, Need for urgent basis</a></li>
+                                    <li class="lh-lg"><a href="#">Import some promotional campaign data</a></li>
+                                    <li class="lh-lg"><a href="#">Need an image recognition application</a></li>
+                                    <li class="lh-lg"><a href="#">Create a shopify clone for me</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- End Header Section -->
+
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-6 col-md-3 mb-3 mb-md-0">
+                    <h5 class="fw-bold text-white">Categories</h5>
+                    <ul class="footer-widget">
+                        <li><a href="#" class="text-grey text-decoration-none">Photography</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Videography</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Graphic's Design</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Data Entry</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Video Editing</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Digital Marketing</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Writing & Translation</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Music & Audio</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-6 col-md-3 mb-3 mb-md-0">
+                    <h5 class="fw-bold text-white">About</h5>
+                    <ul class="footer-widget">
+                        <li><a href="#" class="text-grey text-decoration-none">Careers</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Press & News</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Partnership</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Privacy Policy</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Terms of Services</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Property Claims</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Investor Relation</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-3 mb-3 mb-md-0">
+                    <h5 class="fw-bold text-white">Comnunity</h5>
+                    <ul class="footer-widget">
+                        <li><a href="#" class="text-grey text-decoration-none">Events</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Blog</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Forum</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Community</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Podcast</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Invite a Friend</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Become a Seller</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3 mb-3 mb-md-0">
+                    <h5 class="fw-bold text-white">Support</h5>
+                    <ul class="footer-widget">
+                        <li><a href="#" class="text-grey text-decoration-none">Help & Support</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Selling Guide</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Buying Guide</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Trust & Safety</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row border-top p-3">
+                <div class="col-sm-6 footer__copyright">
+                    <h4 class="d-flex justify-content-center justify-content-md-start mb-3 mb-md-0">
+                        <a class="text-decoration-none text-grey" href="https:999itsolution.com"><span>&#169;</span>
+                            BDLancers.com 2020</a>
+                    </h4>
+                </div>
+                <div class="col-sm-6 footer__social">
+                    <h4 class="d-flex justify-content-center justify-content-md-end">
+                        <a class="text-decoration-none text-grey" href="#"><i class="fab fa-facebook"></i></a>
+                        <a class="text-decoration-none text-grey" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="text-decoration-none text-grey" href="#"><i class="fab fa-linkedin"></i></a>
+                        <a class="text-decoration-none text-grey" href="#"><i class="fab fa-instagram"></i></a>
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </footer>
+   
+    <!-- End Footer Section -->
+</body>
+
+</html>

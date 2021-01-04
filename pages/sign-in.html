@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="../dist/css/app.css">
+    <script src="../dist/js/app.js" defer></script>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <!-- Top menu -->
+        <nav class="menu fixed-top">
+            <div class="menu__container">
+                <div class="brand flex-grow-1">
+                    <a href="../index.html">
+                        <img src="../assets/svgs/logo.svg" alt="">
+                    </a>
+                </div>
+                <ul class="menu__items d-none d-lg-flex">
+                    <li class="menu__item"><a href=""> How It Works</a></li>
+                    <li class="menu__item"><a href=""> Find Jobs <i class="fas fa-caret-down fa-fw"></i></a>
+                        <ul class="menu-dropdown">
+                            <li class="menu-dropdown__item"><a href="job-list.html">Job List</a></li>
+                            <li class="menu-dropdown__item"><a href="job-single.html">Job Single</a></li>
+                            <li class="menu-dropdown__item"><a href="post-job.html">Post A Job</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu__item"><a href=""> Employers <i class="fas fa-caret-down fa-fw"></i></a>
+                        <ul class="menu-dropdown">
+                            <li class="menu-dropdown__item"><a href="employer-list.html">Employer List</a></li>
+                            <li class="menu-dropdown__item"><a href="employer-single.html">Employer Single</a>
+                            </li>
+                            <li class="menu-dropdown__item"><a href="employer-profile.html">Employer Profile</a>
+                            </li>
+                            <li class="menu-dropdown__item"><a href="employer-dashboard.html">Employer
+                                    Dashboard</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu__item"><a href=""> Freelancers <i class="fas fa-caret-down fa-fw"></i></a>
+                        <ul class="menu-dropdown">
+                            <li class="menu-dropdown__item"><a href="hire-freelancer.html">Hire A Freelancer</a>
+                            </li>
+                            <li class="menu-dropdown__item"><a href="freelancer-single.html">Freelancer Single</a>
+                            </li>
+                            <li class="menu-dropdown__item"><a href="freelancer-profile.html">Freelancer
+                                    Profile</a></li>
+                            <li class="menu-dropdown__item"><a href="freelancer-dashboard.html">Freelancer
+                                    Dashboard</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu__item"><a href=""> Pages <i class="fas fa-caret-down fa-fw"></i></a>
+                        <ul class="menu-dropdown">
+                            <li class="menu-dropdown__item"><a href="blog-list.html">Blog List</a></li>
+                            <li class="menu-dropdown__item"><a href="blog-single.html">Blog Single</a></li>
+                            <li class="menu-dropdown__item"><a href="project-list.html">Project List</a></li>
+                            <li class="menu-dropdown__item"><a href="project-single.html">Project Single</a></li>
+                            <li class="menu-dropdown__item"><a href="sign-in">Sign In/Login</a></li>
+                            <li class="menu-dropdown__item"><a href="sign-up">Sign up/Register</a></li>
+                            <li class="menu-dropdown__item"><a href="pricing-plan.html">Pricing Plan</a></li>
+                            <li class="menu-dropdown__item"><a href="error.html">Error Page</a></li>
+                            <li class="menu-dropdown__item"><a href="payment.html">Payment Page</a></li>
+                            <li class="menu-dropdown__item"><a href="checkout.html">Checkout Page</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu__item"><a href="sign-in.html"> Sign In</a></li>
+                </ul>
+                <a href="pages/sign-up.html" class="btn btn-outline-primary px-3 font-weight-normal d-none d-lg-block">
+                    Join
+                </a>
+
+                <div class="menu-bar d-lg-none">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+
+            </div>
+        </nav>
+        <!-- End Top Menu -->
+
+        <!-- Sidebar start -->
+        <div class="sidebar d-lg-none">
+            <div class="sidebar__container">
+
+                <ul class="sidebar__links mt-5">
+                    <li class="sidebar__item"><a href="javascript:void(0)">How it works</a></li>
+                    <li class="sidebar__item"><a href="javascript:void(0)">Find Jobs <i
+                                class="fas fa-caret-down ms-auto"></i></a>
+                        <ul class="sidebar-dropdown">
+                            <li class="sidebar-dropdown__item"><a href="job-list.html">Job List</a></li>
+                            <li class="sidebar-dropdown__item"><a href="job-single.html">Job Single</a></li>
+                            <li class="sidebar-dropdown__item"><a href="post-job.html">Post A Job</a></li>
+                        </ul>
+                    </li>
+                    <li class="sidebar__item"><a href="javascript:void(0)">Employer <i
+                                class="fas fa-caret-down ms-auto"></i></a>
+                        <ul class="sidebar-dropdown">
+                            <li class="sidebar-dropdown__item"><a href="employer-list.html">Employer List</a></li>
+                            <li class="sidebar-dropdown__item"><a href="employer-single.html">Employer Single</a>
+                            </li>
+                            <li class="sidebar-dropdown__item"><a href="employer-profile.html">Employer
+                                    Profile</a>
+                            </li>
+                            <li class="sidebar-dropdown__item"><a href="employer-dashboard.html">Employer
+                                    Dashboard</a></li>
+                        </ul>
+
+                    </li>
+                    <li class="sidebar__item"><a href="javascript:void(0)">Freelancer <i
+                                class="fas fa-caret-down ms-auto"></i></a>
+
+                        <ul class="sidebar-dropdown">
+                            <li class="sidebar-dropdown__item"><a href="hire-freelancer.html">Hire A
+                                    Freelancer</a>
+                            </li>
+                            <li class="sidebar-dropdown__item"><a href="freelancer-single.html">Freelancer
+                                    Single</a>
+                            </li>
+                            <li class="sidebar-dropdown__item"><a href="freelancer-profile.html">Freelancer
+                                    Profile</a></li>
+                            <li class="sidebar-dropdown__item"><a href="freelancer-dashboard.html">Freelancer
+                                    Dashboard</a></li>
+                        </ul>
+
+                    </li>
+
+                    <li class="sidebar__item"><a href="javascript:void(0)">Pages <i
+                                class="fas fa-caret-down ms-auto"></i></a>
+
+                        <ul class="sidebar-dropdown">
+                            <li class="sidebar-dropdown__item"><a href="blog-list.html">Blog List</a></li>
+                            <li class="sidebar-dropdown__item"><a href="blog-single.html">Blog Single</a></li>
+                            <li class="menu-dropdown__item"><a href="project-list.html">Project List</a></li>
+                            <li class="menu-dropdown__item"><a href="project-single.html">Project Single</a></li>
+                            <li class="sidebar-dropdown__item"><a href="sign-in">Sign In/Login</a></li>
+                            <li class="sidebar-dropdown__item"><a href="sign-up">Sign up/Register</a></li>
+                            <li class="sidebar-dropdown__item"><a href="pricing-plan.html">Pricing Plan</a></li>
+                            <li class="sidebar-dropdown__item"><a href="error.html">Error Page</a></li>
+                            <li class="sidebar-dropdown__item"><a href="payment.html">Payment Page</a></li>
+                            <li class="sidebar-dropdown__item"><a href="checkout.html">Checkout Page</a></li>
+                        </ul>
+
+                    </li>
+                </ul>
+
+                <div class="px-3 py-2 mb-3">
+                    <button class="btn btn-primary w-100 rounded-pill text-white">Join</button>
+                    <button class="btn btn-outline-primary w-100 rounded-pill mt-2 ">Sign In</button>
+                </div>
+            </div>
+        </div>
+        <!-- Sidebar end -->
+
+    </header>
+    <!-- End Header Section -->
+
+    <!-- form section -->
+    <div class="sign-up" >
+        <div class="card border-0 rounded-0 py-3">
+            <div class="card-body p-4">
+                <div class="text-center"> 
+                    <img src="../assets/svgs/logo.svg" alt="facebook icon">
+                </div>
+                <p class="h6 fs-5 py-2 text-center">Sign In</p>
+                <button class="fb-btn rounded-0 border-0 w-100 py-2" >
+                    <i class="fab fa-facebook"></i>
+                    <p class="d-inline">Continue with facebook</p>
+                </button>
+                <button class="google-btn rounded-0 border w-100 py-2">
+                    <img class="image-fluid" src="../assets/svgs/google.svg" alt="google icon">
+                    <p class="d-inline">Continue with Google</p>
+                </button>
+
+                <p class="lead fw-normal m-2 text-center">Or</p>
+
+                <input id="email" type="email" class="form-control mb-3 py-2" placeholder="Email">
+                <input id="password" type="password" class="form-control mb-3 py-2" placeholder="Password">
+            
+
+                <div class="mb-3 fs-7 d-flex align-items-center">
+                    <div class="pretty p-svg me-0 mt-0">
+                        <input type="checkbox" />
+                        <div class="state p-primary">
+                            <svg class="svg svg-icon" viewBox="0 0 20 20">
+                                <path
+                                    d="M7.629,14.566c0.125,0.125,0.291,0.188,0.456,0.188c0.164,0,0.329-0.062,0.456-0.188l8.219-8.221c0.252-0.252,0.252-0.659,0-0.911c-0.252-0.252-0.659-0.252-0.911,0l-7.764,7.763L4.152,9.267c-0.252-0.251-0.66-0.251-0.911,0c-0.252,0.252-0.252,0.66,0,0.911L7.629,14.566z"
+                                    style="stroke: white;fill:white;"></path>
+                            </svg>
+                            <label for="fixed">Remember me</label>
+                        </div>
+                    </div>
+                    
+                    <a href="#" class="text-primary ms-auto">Forgot password?</a>
+                    
+                </div>
+
+                
+                <button class="btn btn-primary rounded-0 mb-3 w-100 py-2">
+                    <p class="d-inline">Continue</p>
+                </button>
+
+                <p class="text-center">Not a member yet? <span> <a class="text-primary" href="sign-up.html">Join Now</a></span> </p>
+            </div>
+        </div>
+    </div>
+    
+</body>

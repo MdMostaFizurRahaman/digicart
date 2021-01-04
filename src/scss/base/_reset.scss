@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    // min-height: 5000px;
+}
+
+.splide__pagination{
+    bottom: -2rem;
+}
+
+.splide__pagination__page.is-active{
+    background: $primary !important;
+}
+
+// Bootstrap
+
+ol, ul, dl{
+    padding: 0;
+}
+
+p{
+    margin-bottom: 0;
+}
+
+a{
+    color: $black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: $primary;
+    text-decoration: underline;
+}
+
+.btn-primary{
+    color: $white; 
+    
+    &:hover{
+        color: $white; 
+    }
+
+    &:focus{
+        color: $white; 
+    }
+}
+
+.btn-outline-primary:hover{
+    color: $white;
+}
+
+.page-link{
+    color: $primary;
+}
+
+
+.page-item.active .page-link{
+    color: $white;
+}
+
+.form-control{
+    border-radius: 0;
+    border: 1px solid $primary;
+
+    &:focus{
+        outline: 1px solid $primary;
+        border: 1px solid $primary;
+        box-shadow: none;
+    }
+}
+
+// .btn:focus{
+//     // box-shadow: none;
+//     // outline: none;
+// }
+
+button:focus{
+    outline: none;
+}
+
+// select:focus{
+//     outline: 2px solid $primary;
+// }
+
+// Pretty checkbox
+.pretty .state label:before {
+    border: 1px solid $primary;
+}

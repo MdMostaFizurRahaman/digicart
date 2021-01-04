@@ -1,0 +1,67 @@
+.category {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, auto));
+    gap: 1.5rem;
+
+    &-card {
+        transition: all 0.5s;
+        &:hover{
+            box-shadow: $box-shadow;
+            cursor: pointer;
+        }
+    
+        background: $white;
+        border-top: 5px solid $primary;
+
+        svg {
+            min-height: 80px;
+        }
+    }
+}
+
+.feature {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, auto));
+    gap: 1.5rem;
+
+    &-card {
+        padding: 2rem;
+        transition: all 0.5s;
+
+        &:hover{
+            box-shadow: $box-shadow;
+            cursor: pointer;
+        }
+
+        &__header{
+            display: flex;
+            align-items: center;
+
+            svg{
+                height: 1.5rem;
+            }
+            
+            p{
+                font-size: 1.25rem;
+                font-weight: 600;
+                margin-bottom: 0;
+            }
+        }
+
+        &__body{
+            p{
+                text-align: justify;
+            }
+        }
+    }
+}
+
+.statistics{
+    min-height: 350px;
+    background-image: linear-gradient(rgba($dark, 0.9), rgba($dark, 0.9)), url('/assets/images/bg-statistics.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}

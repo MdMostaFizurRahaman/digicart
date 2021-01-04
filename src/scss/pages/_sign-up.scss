@@ -1,0 +1,62 @@
+.sign-up {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    min-height: 100vh;
+    margin-top: 20px;
+    
+
+    .card {
+        width: 400px;
+        
+        &-body {
+            img {
+                width: 200px;
+            }
+
+            .fb-btn {
+                background-color: #4267B2;
+                color: $white;
+                min-width: 250px;
+                
+
+                p {
+                    margin-left: 10px;
+                }
+            }
+
+            .google-btn {
+                background-color: $white;
+                margin-top: 10px;
+                min-width: 250px;
+
+                img {
+                    width: 15px;
+                }
+
+                p {
+                    margin-left: 10px;
+                }
+            }
+
+            #email {
+                border-color: $grey-light;
+                margin-bottom: 10px; 
+
+                &:focus{
+                    border-color: $primary;
+                }
+            }
+
+            #password {
+                border-color: $grey-light;
+            }
+
+            .pretty {
+                margin-top: 10px; 
+            }
+ 
+        }
+    }
+    
+}

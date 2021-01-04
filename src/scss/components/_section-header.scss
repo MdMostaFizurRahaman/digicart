@@ -1,0 +1,9 @@
+.section-header{
+    &__line{
+        display: inline-block;
+        height: 2px;
+        width: 250px;
+        background: $primary;
+        border-radius: 10px;
+    }
+}

@@ -1,0 +1,1116 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BDLancers</title>
+    <link rel="stylesheet" href="dist/css/app.css">
+    <script src="dist/js/app.js" defer></script>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="menu fixed-top">
+            <div class="menu__container">
+                <div class="brand flex-grow-1">
+                    <a href="index.html">
+                        <img src="assets/svgs/logo.svg" alt="">
+                    </a>
+                </div>
+                <ul class="menu__items d-none d-lg-flex">
+                    <li class="menu__item"><a href=""> How It Works</a></li>
+                    <li class="menu__item"><a href=""> Find Jobs <i class="fas fa-caret-down fa-fw"></i></a>
+                        <ul class="menu-dropdown">
+                            <li class="menu-dropdown__item"><a href="pages/job-list.html">Job List</a></li>
+                            <li class="menu-dropdown__item"><a href="pages/job-single.html">Job Single</a></li>
+                            <li class="menu-dropdown__item"><a href="pages/post-job.html">Post A Job</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu__item"><a href=""> Employers <i class="fas fa-caret-down fa-fw"></i></a>
+                        <ul class="menu-dropdown">
+                            <li class="menu-dropdown__item"><a href="pages/employer-list.html">Employer List</a></li>
+                            <li class="menu-dropdown__item"><a href="pages/employer-single.html">Employer Single</a>
+                            </li>
+                            <li class="menu-dropdown__item"><a href="pages/employer-profile.html">Employer Profile</a>
+                            </li>
+                            <li class="menu-dropdown__item"><a href="pages/employer-dashboard.html">Employer
+                                    Dashboard</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu__item"><a href=""> Freelancers <i class="fas fa-caret-down fa-fw"></i></a>
+                        <ul class="menu-dropdown">
+                            <li class="menu-dropdown__item"><a href="pages/hire-freelancer.html">Hire A Freelancer</a>
+                            </li>
+                            <li class="menu-dropdown__item"><a href="pages/freelancer-single.html">Freelancer Single</a>
+                            </li>
+                            <li class="menu-dropdown__item"><a href="pages/freelancer-profile.html">Freelancer
+                                    Profile</a></li>
+                            <li class="menu-dropdown__item"><a href="pages/freelancer-dashboard.html">Freelancer
+                                    Dashboard</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu__item"><a href=""> Pages <i class="fas fa-caret-down fa-fw"></i></a>
+                        <ul class="menu-dropdown">
+                            <li class="menu-dropdown__item"><a href="pages/blog-list.html">Blog List</a></li>
+                            <li class="menu-dropdown__item"><a href="pages/blog-single.html">Blog Single</a></li>
+                            <li class="menu-dropdown__item"><a href="pages/project-list.html">Project List</a></li>
+                            <li class="menu-dropdown__item"><a href="pages/project-single.html">Project Single</a></li>
+                            <li class="menu-dropdown__item"><a href="pages/sign-in">Sign In/Login</a></li>
+                            <li class="menu-dropdown__item"><a href="pages/sign-up">Sign up/Register</a></li>
+                            <li class="menu-dropdown__item"><a href="pages/pricing-plan.html">Pricing Plan</a></li>
+                            <li class="menu-dropdown__item"><a href="pages/error.html">Error Page</a></li>
+                            <li class="menu-dropdown__item"><a href="pages/payment.html">Payment Page</a></li>
+                            <li class="menu-dropdown__item"><a href="pages/checkout.html">Checkout Page</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu__item"><a href="pages/sign-in.html"> Sign In</a></li>
+                </ul>
+                <a href="pages/sign-up.html" class="btn btn-outline-primary px-3 d-none d-lg-block">
+                    Join
+                </a>
+
+                <div class="menu-bar d-block d-lg-none">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+
+            </div>
+        </nav>
+
+        <!-- Sidebar start -->
+        <div class="sidebar d-lg-none">
+            <div class="sidebar__container">
+
+                <ul class="sidebar__links mt-5">
+                    <li class="sidebar__item"><a href="javascript:void(0)">How it works</a></li>
+                    <li class="sidebar__item"><a href="javascript:void(0)">Find Jobs <i
+                                class="fas fa-caret-down ms-auto"></i></a>
+                        <ul class="sidebar-dropdown">
+                            <li class="sidebar-dropdown__item"><a href="pages/job-list.html">Job List</a></li>
+                            <li class="sidebar-dropdown__item"><a href="pages/job-single.html">Job Single</a></li>
+                            <li class="sidebar-dropdown__item"><a href="pages/post-job.html">Post A Job</a></li>
+                        </ul>
+                    </li>
+                    <li class="sidebar__item"><a href="javascript:void(0)">Employer <i
+                                class="fas fa-caret-down ms-auto"></i></a>
+                        <ul class="sidebar-dropdown">
+                            <li class="sidebar-dropdown__item"><a href="pages/employer-list.html">Employer List</a></li>
+                            <li class="sidebar-dropdown__item"><a href="pages/employer-single.html">Employer Single</a>
+                            </li>
+                            <li class="sidebar-dropdown__item"><a href="pages/employer-profile.html">Employer
+                                    Profile</a>
+                            </li>
+                            <li class="sidebar-dropdown__item"><a href="pages/employer-dashboard.html">Employer
+                                    Dashboard</a></li>
+                        </ul>
+
+                    </li>
+                    <li class="sidebar__item"><a href="javascript:void(0)">Freelancer <i
+                                class="fas fa-caret-down ms-auto"></i></a>
+
+                        <ul class="sidebar-dropdown">
+                            <li class="sidebar-dropdown__item"><a href="pages/freelancer-list.html">Hire A
+                                    Freelancer</a>
+                            </li>
+                            <li class="sidebar-dropdown__item"><a href="pages/freelancer-single.html">Freelancer
+                                    Single</a>
+                            </li>
+                            <li class="sidebar-dropdown__item"><a href="pages/freelancer-profile.html">Freelancer
+                                    Profile</a></li>
+                            <li class="sidebar-dropdown__item"><a href="pages/freelancer-dashboard.html">Freelancer
+                                    Dashboard</a></li>
+                        </ul>
+
+                    </li>
+
+                    <li class="sidebar__item"><a href="javascript:void(0)">Pages <i
+                                class="fas fa-caret-down ms-auto"></i></a>
+
+                        <ul class="sidebar-dropdown">
+                            <li class="sidebar-dropdown__item"><a href="pages/blog-list.html">Blog List</a></li>
+                            <li class="sidebar-dropdown__item"><a href="pages/blog-single.html">Blog Single</a></li>
+                            <li class="menu-dropdown__item"><a href="pages/project-list.html">Project List</a></li>
+                            <li class="menu-dropdown__item"><a href="pages/project-single.html">Project Single</a></li>
+                            <li class="sidebar-dropdown__item"><a href="pages/sign-in">Sign In/Login</a></li>
+                            <li class="sidebar-dropdown__item"><a href="pages/sign-up">Sign up/Register</a></li>
+                            <li class="sidebar-dropdown__item"><a href="pages/pricing-plan.html">Pricing Plan</a></li>
+                            <li class="sidebar-dropdown__item"><a href="pages/error.html">Error Page</a></li>
+                            <li class="sidebar-dropdown__item"><a href="pages/payment.html">Payment Page</a></li>
+                            <li class="sidebar-dropdown__item"><a href="pages/checkout.html">Checkout Page</a></li>
+                        </ul>
+
+                    </li>
+                </ul>
+
+                <div class="px-3 py-2 mb-3">
+                    <button class="btn btn-primary w-100 rounded-pill text-white">Join</button>
+                    <button class="btn btn-outline-primary w-100 rounded-pill mt-2 ">Sign In</button>
+                </div>
+            </div>
+        </div>
+        <!-- Sidebar end -->
+
+        <!-- Hero section -->
+        <section class="hero">
+            <div class="hero__text text-center container">
+                <h1 class="display-4">Hire your best professionals!</h1>
+                <p class="text-white d-none d-md-block">Start exchanging with millions of people from around the world
+                </p>
+                <div class="search-box mt-2">
+                    <span class="search-box__prepend"><i class="fas fa-search"></i></span>
+                    <input type="text" placeholder='Try "building mobile app"'>
+                    <button class="search-box__append px-4">Search</button>
+                </div>
+            </div>
+        </section>
+        <!-- Hero section end -->
+
+
+    </header>
+    <!-- End Header Section -->
+
+    <!-- Category Section -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="section-header mb-5">
+                <div class="section-header__title text-center">
+                    <p class="h2 fw-bold">Browse Top Categories</p>
+                    <span class="section-header__line"></span>
+                </div>
+            </div>
+            <div class="category">
+
+                <div class="category-card p-4">
+                    <div class="category-card__header text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="55.2" height="54.984" viewBox="0 0 55.2 54.984">
+                            <g id="web-development" transform="translate(0 -1)">
+                                <path id="Path_282" data-name="Path 282"
+                                    d="M55.2,13.937V5.852A4.857,4.857,0,0,0,50.348,1H4.852A4.857,4.857,0,0,0,0,5.852v8.086ZM37.3,7.469h9.7a1.617,1.617,0,0,1,0,3.234H37.3a1.617,1.617,0,1,1,0-3.234Zm-16.172,0a1.617,1.617,0,1,1-1.617,1.617A1.617,1.617,0,0,1,21.131,7.469Zm-6.469,0a1.617,1.617,0,1,1-1.617,1.617A1.617,1.617,0,0,1,14.662,7.469Zm-6.469,0A1.617,1.617,0,1,1,6.577,9.086,1.617,1.617,0,0,1,8.194,7.469Z"
+                                    fill="#1dbf73" />
+                                <path id="Path_283" data-name="Path 283"
+                                    d="M0,151v33.961a4.857,4.857,0,0,0,4.852,4.852h45.5a4.857,4.857,0,0,0,4.852-4.852V151Zm18.907,22.995a1.617,1.617,0,1,1-2.02,2.525L8.8,170.052a1.618,1.618,0,0,1,0-2.526l8.086-6.469a1.617,1.617,0,1,1,2.02,2.525L12.4,168.789Zm15.031-15.889-9.7,22.641a1.617,1.617,0,1,1-2.973-1.274l9.7-22.641a1.617,1.617,0,1,1,2.973,1.274ZM46.4,170.052l-8.086,6.469A1.617,1.617,0,1,1,36.293,174l6.507-5.206-6.507-5.206a1.617,1.617,0,1,1,2.02-2.526l8.086,6.469a1.618,1.618,0,0,1,0,2.525Z"
+                                    transform="translate(0 -133.828)" fill="#1dbf73" />
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="h5 fw-bold mt-3 text-center">Web & Mobile Dev</div>
+                    <div class="category-card__content text-center">
+                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora cumque
+                            dicta nostrum veniam illo id?</p>
+                    </div>
+                </div>
+
+                <div class="category-card p-4">
+                    <div class="category-card__header text-center">
+                        <svg id="ux" xmlns="http://www.w3.org/2000/svg" width="53.733" height="53.733"
+                            viewBox="0 0 53.733 53.733">
+                            <path id="Path_276" data-name="Path 276"
+                                d="M1.574,53.733H39.565a1.573,1.573,0,0,0,1.574-1.574V12.594H30.015a1.573,1.573,0,0,1-1.574-1.574V0H1.574A1.573,1.573,0,0,0,0,1.574V52.159A1.573,1.573,0,0,0,1.574,53.733Zm9.55-30.12V22.039H9.55a1.574,1.574,0,1,1,0-3.148h1.574V17.316a1.574,1.574,0,0,1,3.148,0v1.574h1.574a1.574,1.574,0,1,1,0,3.148H14.273v1.574a1.574,1.574,0,0,1-3.148,0Zm6.3,20.465H14.273a1.574,1.574,0,1,1,0-3.148h3.148a1.574,1.574,0,1,1,0,3.148Zm0-6.3H14.273a1.574,1.574,0,0,1,0-3.148h3.148a1.574,1.574,0,0,1,0,3.148Zm0-6.3H14.273a1.574,1.574,0,0,1,0-3.148h3.148a1.574,1.574,0,0,1,0,3.148Zm6.3,6.3a1.574,1.574,0,1,1,1.574-1.574A1.574,1.574,0,0,1,23.718,37.781Zm0-6.3a1.574,1.574,0,1,1,1.574-1.574A1.574,1.574,0,0,1,23.718,31.484Zm9.445,6.3H30.015a1.574,1.574,0,0,1,0-3.148h3.148a1.574,1.574,0,0,1,0,3.148Zm1.574-7.871a1.573,1.573,0,0,1-1.574,1.574H30.015a1.574,1.574,0,0,1,0-3.148h3.148A1.573,1.573,0,0,1,34.738,29.91Zm-3.148-11.02a1.574,1.574,0,0,1,0,3.148h-6.3a1.574,1.574,0,1,1,0-3.148ZM7.976,9.445H23.718a1.574,1.574,0,1,1,0,3.148H7.976a1.574,1.574,0,1,1,0-3.148Zm0,18.891A1.574,1.574,0,1,1,6.4,29.91,1.574,1.574,0,0,1,7.976,28.336Zm0,6.3A1.574,1.574,0,1,1,6.4,36.207,1.574,1.574,0,0,1,7.976,34.633Zm0,6.3A1.574,1.574,0,1,1,6.4,42.5,1.574,1.574,0,0,1,7.976,40.93Z"
+                                fill="#1dbf73" />
+                            <path id="Path_277" data-name="Path 277" d="M301,17.312h8.628L301,8.789Z"
+                                transform="translate(-269.411 -7.867)" fill="#1dbf73" />
+                            <path id="Path_278" data-name="Path 278"
+                                d="M431.445,61.574A1.573,1.573,0,0,0,429.871,60h-6.3A1.573,1.573,0,0,0,422,61.574V88.336h9.445Z"
+                                transform="translate(-377.712 -53.703)" fill="#1dbf73" />
+                            <path id="Path_279" data-name="Path 279"
+                                d="M430.477,369.445a1.573,1.573,0,0,0,1.493-1.076L434.76,360H426.2l2.79,8.369A1.573,1.573,0,0,0,430.477,369.445Z"
+                                transform="translate(-381.467 -322.219)" fill="#1dbf73" />
+                        </svg>
+                    </div>
+                    <div class="h5 fw-bold mt-3 text-center">UI/UX Design</div>
+                    <div class="category-card__content text-center">
+                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora cumque
+                            dicta nostrum veniam illo id?</p>
+                    </div>
+                </div>
+
+                <div class="category-card p-4">
+                    <div class="category-card__header text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="52.269" height="52.269"
+                            viewBox="0 0 52.269 52.269">
+                            <path id="materialdesignicons"
+                                d="M0,0H15.681V5.227H36.588V0H52.269V15.681H47.042V36.588h5.227V52.269H36.588V47.042H15.681v5.227H0V36.588H5.227V15.681H0V0M36.588,15.681V10.454H15.681v5.227H10.454V36.588h5.227v5.227H36.588V36.588h5.227V15.681H36.588M5.227,5.227v5.227h5.227V5.227H5.227m36.588,0v5.227h5.227V5.227H41.815M5.227,41.815v5.227h5.227V41.815H5.227m36.588,0v5.227h5.227V41.815Z"
+                                fill="#1dbf73" />
+                        </svg>
+
+                    </div>
+                    <div class="h5 fw-bold mt-3 text-center">Graphics Design</div>
+                    <div class="category-card__content text-center">
+                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora cumque
+                            dicta nostrum veniam illo id?</p>
+                    </div>
+                </div>
+
+                <div class="category-card p-4">
+                    <div class="category-card__header text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="52.269" height="52.269"
+                            viewBox="0 0 52.269 52.269">
+                            <path id="webpage"
+                                d="M49,52.27H22.87a3.116,3.116,0,0,1-2.322-.969A3.179,3.179,0,0,1,19.6,49V22.868A3.226,3.226,0,0,1,22.87,19.6H49a3.226,3.226,0,0,1,3.267,3.267V49A3.226,3.226,0,0,1,49,52.27Zm-3.267-24.5A1.658,1.658,0,0,0,44.1,26.134H27.77a1.658,1.658,0,0,0-1.634,1.634V44.1a1.658,1.658,0,0,0,1.634,1.634H44.1A1.658,1.658,0,0,0,45.738,44.1ZM49,16.334H22.87a3.116,3.116,0,0,1-2.322-.969,3.179,3.179,0,0,1-.945-2.3v-9.8a3.179,3.179,0,0,1,.945-2.3A3.116,3.116,0,0,1,22.87,0H49A3.116,3.116,0,0,1,51.327.97a3.179,3.179,0,0,1,.945,2.3v9.8A3.226,3.226,0,0,1,49,16.334ZM13.069,52.27h-9.8a3.138,3.138,0,0,1-2.3-.969A3.138,3.138,0,0,1,0,49V3.267A3.138,3.138,0,0,1,.972.97,3.138,3.138,0,0,1,3.269,0h9.8A3.116,3.116,0,0,1,15.391.97a3.179,3.179,0,0,1,.945,2.3V49a3.226,3.226,0,0,1-3.267,3.267Z"
+                                transform="translate(-0.003 -0.001)" fill="#1dbf73" />
+                        </svg>
+                    </div>
+                    <div class="h5 fw-bold mt-3 text-center">Software Dev</div>
+                    <div class="category-card__content text-center">
+                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora cumque
+                            dicta nostrum veniam illo id?</p>
+                    </div>
+                </div>
+
+                <div class="category-card p-4">
+                    <div class="category-card__header text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="67.046" height="61.216"
+                            viewBox="0 0 67.046 61.216">
+                            <path id="add-a-photo"
+                                d="M8.745,10.245V1.5h5.83v8.745H23.32v5.83H14.575V24.82H8.745V16.075H0v-5.83Zm8.745,17.49V18.99h8.745V10.245H46.641l5.335,5.83h9.241a5.847,5.847,0,0,1,5.83,5.83v34.98a5.847,5.847,0,0,1-5.83,5.83H14.575a5.847,5.847,0,0,1-5.83-5.83V27.735ZM37.9,53.971A14.575,14.575,0,1,0,23.32,39.4,14.581,14.581,0,0,0,37.9,53.971ZM28.567,39.4A9.328,9.328,0,1,0,37.9,30.067,9.318,9.318,0,0,0,28.567,39.4Z"
+                                transform="translate(0 -1.5)" fill="#1dbf73" />
+                        </svg>
+                    </div>
+                    <div class="h5 fw-bold mt-3 text-center">Photography</div>
+                    <div class="category-card__content text-center">
+                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora cumque
+                            dicta nostrum veniam illo id?</p>
+                    </div>
+                </div>
+
+                <div class="category-card p-4">
+                    <div class="category-card__header text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="66.224" height="52.033"
+                            viewBox="0 0 66.224 52.033">
+                            <path id="videocamera"
+                                d="M51.771,21.191a1.359,1.359,0,0,0-1.36-1.375H42.754v-4.76a9.54,9.54,0,0,0-9.593-9.431H6.833v7.1H32.865a1.726,1.726,0,0,1,1.463,1.493v5.6H3.64a1.384,1.384,0,0,0-1.39,1.375V56.284a1.384,1.384,0,0,0,1.39,1.375H50.411a1.359,1.359,0,0,0,1.36-1.375V46.749l16.7,5.13V25.8l-16.7,5.13ZM35.688,44.208H18.23a5.292,5.292,0,1,1,5.306-5.262,5.449,5.449,0,0,1-1.6,3.784H31.977a5.449,5.449,0,0,1-1.6-3.784,5.306,5.306,0,1,1,5.306,5.262Z"
+                                transform="translate(-2.25 -5.625)" fill="#1dbf73" />
+                        </svg>
+                    </div>
+                    <div class="h5 fw-bold mt-3 text-center">Videography</div>
+                    <div class="category-card__content text-center">
+                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora cumque
+                            dicta nostrum veniam illo id?</p>
+                    </div>
+                </div>
+
+                <div class="category-card p-4">
+                    <div class="category-card__header text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="64.583" height="49.925"
+                            viewBox="0 0 64.583 49.925">
+                            <g id="sales" transform="translate(0 -57.979)">
+                                <g id="Group_392" data-name="Group 392" transform="translate(7.609 71.312)">
+                                    <path id="Path_284" data-name="Path 284"
+                                        d="M70.665,224.425H60.195V201.014a1.055,1.055,0,0,1,1.055-1.055h8.36a1.055,1.055,0,0,1,1.055,1.055Z"
+                                        transform="translate(-60.195 -195.344)" fill="#1dbf73" />
+                                    <path id="Path_285" data-name="Path 285"
+                                        d="M224.509,192.533h-10.47V164.508a1.055,1.055,0,0,1,1.055-1.055h8.36a1.055,1.055,0,0,1,1.055,1.055Z"
+                                        transform="translate(-194.592 -163.453)" fill="#1dbf73" />
+                                    <path id="Path_286" data-name="Path 286"
+                                        d="M378.353,236.048h-10.47V214.319a1.055,1.055,0,0,1,1.055-1.055h8.36a1.055,1.055,0,0,1,1.055,1.055Z"
+                                        transform="translate(-328.988 -206.967)" fill="#1dbf73" />
+                                </g>
+                                <g id="Group_393" data-name="Group 393" transform="translate(0 104.111)">
+                                    <path id="Path_287" data-name="Path 287"
+                                        d="M62.687,426.714H1.9a1.9,1.9,0,0,1,0-3.792h60.79a1.9,1.9,0,0,1,0,3.792Z"
+                                        transform="translate(0 -422.922)" fill="#1dbf73" />
+                                </g>
+                                <path id="Path_288" data-name="Path 288"
+                                    d="M74.149,65.194a1.9,1.9,0,0,0-1.457-2.012l-6.126-1.489a1.9,1.9,0,0,0-.9,3.685L67.4,65.8,62.491,68.83l-18.625-10.6a1.9,1.9,0,0,0-1.744-.069L23.61,66.848l-8.85-5.523a1.9,1.9,0,1,0-2.008,3.217l9.725,6.07a1.9,1.9,0,0,0,1.81.108l18.558-8.711L61.592,72.682a1.957,1.957,0,0,0,1.934-.034l5.955-3.675-.4,1.857a1.9,1.9,0,0,0,3.709.792l1.314-6.155a2.2,2.2,0,0,0,.042-.273Z"
+                                    transform="translate(-10.36)" fill="#1dbf73" />
+                            </g>
+                        </svg>
+
+                    </div>
+                    <div class="h5 fw-bold mt-3 text-center">Sales & Marketing</div>
+                    <div class="category-card__content text-center">
+                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora cumque
+                            dicta nostrum veniam illo id?</p>
+                    </div>
+                </div>
+
+                <div class="category-card p-4">
+                    <div class="category-card__header text-center">
+                        <svg id="writing" xmlns="http://www.w3.org/2000/svg" width="53.925" height="53.925"
+                            viewBox="0 0 53.925 53.925">
+                            <g id="Group_396" data-name="Group 396" transform="translate(31.515)">
+                                <g id="Group_395" data-name="Group 395">
+                                    <path id="Path_289" data-name="Path 289"
+                                        d="M308.732,9.207a4.71,4.71,0,0,0-1.389-3.351l-4.468-4.468A4.845,4.845,0,0,0,299.493,0h-.272V9.479h9.51V9.207Z"
+                                        transform="translate(-299.222)" fill="#1dbf73" />
+                                </g>
+                            </g>
+                            <g id="Group_398" data-name="Group 398">
+                                <g id="Group_397" data-name="Group 397">
+                                    <path id="Path_290" data-name="Path 290"
+                                        d="M28.851,32.6a6.341,6.341,0,0,1,1.518-2.465l10.7-10.654V12.639h-11.1a1.536,1.536,0,0,1-1.529-1.58V0H4.739A4.745,4.745,0,0,0,0,4.739V49.185a4.745,4.745,0,0,0,4.739,4.739H36.285a4.781,4.781,0,0,0,4.782-4.739V37.394L39.33,39.088A6.282,6.282,0,0,1,36.874,40.6L31.851,42.28l-.765.042a3.95,3.95,0,0,1-3.743-5.2ZM7.9,28.437H23.646a1.58,1.58,0,1,1,0,3.16H7.9a1.58,1.58,0,0,1,0-3.16ZM6.319,23.7a1.579,1.579,0,0,1,1.58-1.58H23.646a1.58,1.58,0,0,1,0,3.16H7.9A1.579,1.579,0,0,1,6.319,23.7Zm0,12.639a1.579,1.579,0,0,1,1.58-1.58H23.646a1.58,1.58,0,1,1,0,3.16H7.9A1.579,1.579,0,0,1,6.319,36.336Zm23.646,7.9a1.58,1.58,0,0,1,0,3.16H20.486a1.58,1.58,0,0,1,0-3.16ZM7.9,18.958a1.58,1.58,0,0,1,0-3.16H29.965a1.58,1.58,0,0,1,0,3.16Z"
+                                        fill="#1dbf73" />
+                                </g>
+                            </g>
+                            <g id="Group_400" data-name="Group 400" transform="translate(30.297 33.999)">
+                                <g id="Group_399" data-name="Group 399">
+                                    <path id="Path_291" data-name="Path 291"
+                                        d="M289.079,322.808l-1.374,4.123a.79.79,0,0,0,1,1l4.121-1.376Z"
+                                        transform="translate(-287.663 -322.808)" fill="#1dbf73" />
+                                </g>
+                            </g>
+                            <g id="Group_402" data-name="Group 402" transform="translate(33.579 20.991)">
+                                <g id="Group_401" data-name="Group 401">
+                                    <path id="Path_292" data-name="Path 292"
+                                        d="M329.225,199.307l-10.4,10.4,4.487,4.487,10.4-10.405Z"
+                                        transform="translate(-318.82 -199.307)" fill="#1dbf73" />
+                                </g>
+                            </g>
+                            <g id="Group_404" data-name="Group 404" transform="translate(46.217 15.582)">
+                                <g id="Group_403" data-name="Group 403">
+                                    <path id="Path_293" data-name="Path 293"
+                                        d="M445.6,148.827a3.3,3.3,0,0,0-4.483,0l-2.3,2.3,4.486,4.486,2.3-2.3A3.18,3.18,0,0,0,445.6,148.827Z"
+                                        transform="translate(-438.819 -147.949)" fill="#1dbf73" />
+                                </g>
+                            </g>
+                            <g id="Group_407" data-name="Group 407" transform="translate(52.999 20.917)">
+                                <g id="Group_406" data-name="Group 406">
+                                    <g id="Group_405" data-name="Group 405">
+                                        <path id="Path_294" data-name="Path 294" d="M503.215,198.817h0l.009-.009Z"
+                                            transform="translate(-503.215 -198.786)" fill="#1dbf73" />
+                                        <path id="Path_295" data-name="Path 295" d="M503.3,198.689l.014-.014Z"
+                                            transform="translate(-503.294 -198.667)" fill="#1dbf73" />
+                                        <path id="Path_296" data-name="Path 296" d="M503.436,198.609Z"
+                                            transform="translate(-503.413 -198.602)" fill="#1dbf73" />
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+
+                    </div>
+                    <div class="h5 fw-bold mt-3 text-center">Content Writing</div>
+                    <div class="category-card__content text-center">
+                        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora cumque
+                            dicta nostrum veniam illo id?</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- More categories -->
+            <div class="d-flex justify-content-center mt-4">
+                <p>Did you find what are you looking for? <a class="text-primary fw-bold" href="pages/category.html">See
+                        all categories <i class="fas fa-external-link-alt fa-fw"></i></a>
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- End Category Section -->
+
+    <!-- Choose Us -->
+    <section class="bg-white section-padding">
+        <div class="container">
+            <div class="section-header mb-5">
+                <div class="text-center">
+                    <p class="h2 fw-bold">Why Choose Us</p>
+                    <span class="section-header__line"></span>
+                </div>
+            </div>
+
+            <div class="feature">
+                <div class="feature-card">
+                    <div class="feature-card__header">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43.621 42.068">
+                            <path id="thumbs-up"
+                                d="M39.613,16.271H30.272V8.487A5.667,5.667,0,0,0,25.228,2.26a5.014,5.014,0,0,0-1.183,0H21.6a2.351,2.351,0,0,0-2.227,1.821v.187l-1.557,9.871-5.51,8.36H2.25V44.293H31.829c11.582,0,14.011-6.772,14.011-12.454V22.5A5.667,5.667,0,0,0,40.8,16.271,5.014,5.014,0,0,0,39.613,16.271ZM11.591,41.179H5.364V25.611h6.227Zm31.136-9.341c0,6.367-3.457,9.341-10.9,9.341H14.7V24.522l6.227-9.231,1.136-8.36.219-1.557h1.759c2.242,0,3.114.872,3.114,3.114v10.9H39.613c2.242,0,3.114.872,3.114,3.114Z"
+                                transform="translate(-2.25 -2.225)" fill="#1dbf73" />
+                        </svg>
+                        <p class="ms-2">It's Easy</p>
+                    </div>
+                    <div class="feature-card__body mt-2">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore consequuntur ab odio!
+                            Inventore,
+                            labore culpa nulla quos dolore quas magni.</p>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-card__header">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39.049 39.049">
+                            <path id="branch"
+                                d="M37.829,39.049H30.507a1.237,1.237,0,0,1-1.22-1.22V30.507a1.237,1.237,0,0,1,1.22-1.22h1.22V26.846a3.151,3.151,0,0,0-.629-1.869,6.1,6.1,0,0,0-1.811-1.6q-1.182-.723-2.307-1.3T24.31,20.822q-1.545-.686-2.345-1.144v9.609h1.22a1.237,1.237,0,0,1,1.22,1.22v7.322a1.237,1.237,0,0,1-1.22,1.22H15.864a1.237,1.237,0,0,1-1.22-1.22V30.507a1.237,1.237,0,0,1,1.22-1.22h1.22V19.867q-.838.458-2.345,1.125t-2.65,1.2a24.465,24.465,0,0,0-2.307,1.24A6.351,6.351,0,0,0,7.97,25a3.016,3.016,0,0,0-.649,1.849v2.441h1.22a1.237,1.237,0,0,1,1.22,1.22v7.322a1.237,1.237,0,0,1-1.22,1.22H1.22a1.173,1.173,0,0,1-.858-.362A1.173,1.173,0,0,1,0,37.829V30.507a1.173,1.173,0,0,1,.362-.858,1.173,1.173,0,0,1,.858-.362h1.22V24.406a3.363,3.363,0,0,1,1.087-2.288,11.144,11.144,0,0,1,2.707-2.04q1.621-.9,3.527-1.907t3.527-1.887A11.966,11.966,0,0,0,16,14.339,3.055,3.055,0,0,0,17.084,12.2V9.762h-1.22a1.237,1.237,0,0,1-1.22-1.22V1.22a1.173,1.173,0,0,1,.362-.858A1.173,1.173,0,0,1,15.864,0h7.322a1.173,1.173,0,0,1,.858.362,1.173,1.173,0,0,1,.362.858V8.542a1.237,1.237,0,0,1-1.22,1.22h-1.22V12.2a2.969,2.969,0,0,0,1.087,2.078,12.293,12.293,0,0,0,2.707,1.925l3.527,1.907q1.907,1.03,3.527,1.945a11.473,11.473,0,0,1,2.707,2.059A3.365,3.365,0,0,1,36.608,24.4v4.881h1.22a1.237,1.237,0,0,1,1.22,1.22v7.322a1.239,1.239,0,0,1-1.22,1.221Z"
+                                fill="#1dbf73" />
+                        </svg>
+
+                        <p class="ms-2">Top Talents</p>
+                    </div>
+                    <div class="feature-card__body mt-2">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore consequuntur ab odio!
+                            Inventore,
+                            labore culpa nulla quos dolore quas magni.</p>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-card__header">
+                        <svg id="chart-high-low" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41.768 41.768">
+                            <path id="Path_80" data-name="Path 80"
+                                d="M19.809,9.733H15.333V6.75H12.35V27.634H7.875v2.983H12.35V33.6h2.983V12.717h4.475Z"
+                                transform="translate(-0.417 -0.783)" fill="#1dbf73" />
+                            <path id="Path_81" data-name="Path 81"
+                                d="M33.309,12.717H28.833V6.75H25.85v17.9H21.375v2.983H25.85V33.6h2.983V15.7h4.475Z"
+                                transform="translate(3.984 -0.783)" fill="#1dbf73" />
+                            <path id="Path_82" data-name="Path 82"
+                                d="M44.018,44.018H5.233A2.983,2.983,0,0,1,2.25,41.034V2.25H5.233V41.034H44.018Z"
+                                transform="translate(-2.25 -2.25)" fill="#1dbf73" />
+                        </svg>
+
+                        <p class="ms-2">High Quality</p>
+                    </div>
+                    <div class="feature-card__body mt-2">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore consequuntur ab odio!
+                            Inventore,
+                            labore culpa nulla quos dolore quas magni.</p>
+                    </div>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-card__header">
+                        <svg id="website" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 34.364">
+                            <path id="Path_83" data-name="Path 83"
+                                d="M21.409,10.5A1.909,1.909,0,0,0,19.5,12.409V27.682a1.909,1.909,0,0,0,1.909,1.909h7.636a1.909,1.909,0,0,0,1.909-1.909V12.409A1.909,1.909,0,0,0,29.045,10.5Zm5.727,3.818H23.318V25.773h3.818Z"
+                                transform="translate(3.409 -2.864)" fill="#1dbf73" fill-rule="evenodd" />
+                            <path id="Path_84" data-name="Path 84"
+                                d="M9.409,10.5a1.909,1.909,0,0,0,0,3.818h7.636a1.909,1.909,0,1,0,0-3.818Z"
+                                transform="translate(0.136 -2.864)" fill="#1dbf73" />
+                            <path id="Path_85" data-name="Path 85"
+                                d="M9.409,16.5a1.909,1.909,0,1,0,0,3.818h7.636a1.909,1.909,0,1,0,0-3.818Z"
+                                transform="translate(0.136 -1.227)" fill="#1dbf73" />
+                            <path id="Path_86" data-name="Path 86"
+                                d="M7.5,24.409A1.909,1.909,0,0,1,9.409,22.5h7.636a1.909,1.909,0,1,1,0,3.818H9.409A1.909,1.909,0,0,1,7.5,24.409Z"
+                                transform="translate(0.136 0.409)" fill="#1dbf73" />
+                            <path id="Path_87" data-name="Path 87"
+                                d="M7.227,4.5A5.727,5.727,0,0,0,1.5,10.227V33.136a5.727,5.727,0,0,0,5.727,5.727H37.773A5.727,5.727,0,0,0,43.5,33.136V10.227A5.727,5.727,0,0,0,37.773,4.5ZM37.773,8.318H7.227a1.909,1.909,0,0,0-1.909,1.909V33.136a1.909,1.909,0,0,0,1.909,1.909H37.773a1.909,1.909,0,0,0,1.909-1.909V10.227A1.909,1.909,0,0,0,37.773,8.318Z"
+                                transform="translate(-1.5 -4.5)" fill="#1dbf73" fill-rule="evenodd" />
+                        </svg>
+
+                        <p class="ms-2">Browse Portfolios</p>
+                    </div>
+                    <div class="feature-card__body mt-2">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore consequuntur ab odio!
+                            Inventore,
+                            labore culpa nulla quos dolore quas magni.</p>
+                    </div>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-card__header">
+                        <svg id="chat-dots" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41.192 38.441">
+                            <path id="Path_88" data-name="Path 88"
+                                d="M6.9,30.3a2.575,2.575,0,0,1,.739,2.062,28.243,28.243,0,0,1-1.025,5.149,30.391,30.391,0,0,0,6.781-2.3,2.575,2.575,0,0,1,1.827-.19,20.751,20.751,0,0,0,5.379.7c10.288,0,18.022-7.227,18.022-15.447S30.884,4.825,20.6,4.825,2.575,12.054,2.575,20.272A14.145,14.145,0,0,0,6.9,30.3ZM5.626,40.351q-.915.181-1.835.332a.669.669,0,0,1-.7-.933q.343-.809.628-1.64l.008-.025a26.923,26.923,0,0,0,1.349-5.971A16.72,16.72,0,0,1,0,20.272C0,10.318,9.221,2.25,20.6,2.25s20.6,8.068,20.6,18.022S31.971,38.293,20.6,38.293a23.325,23.325,0,0,1-6.043-.788A35.2,35.2,0,0,1,5.625,40.35Z"
+                                transform="translate(0 -2.25)" fill="#1dbf73" fill-rule="evenodd" />
+                            <path id="Path_89" data-name="Path 89"
+                                d="M11.9,18.325A2.575,2.575,0,1,1,9.325,15.75,2.575,2.575,0,0,1,11.9,18.325Zm10.3,0a2.575,2.575,0,1,1-2.575-2.575A2.575,2.575,0,0,1,22.2,18.325Zm10.3,0a2.575,2.575,0,1,1-2.575-2.575A2.575,2.575,0,0,1,32.5,18.325Z"
+                                transform="translate(0.974 -0.303)" fill="#1dbf73" />
+                        </svg>
+
+                        <p class="ms-2">Live Chat</p>
+                    </div>
+                    <div class="feature-card__body mt-2">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore consequuntur ab odio!
+                            Inventore,
+                            labore culpa nulla quos dolore quas magni.</p>
+                    </div>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-card__header">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41.141 41.141">
+                            <path id="bx-support"
+                                d="M23.57,3A20.594,20.594,0,0,0,3,23.57v8.522a3.979,3.979,0,0,0,4.114,3.821H9.171a2.057,2.057,0,0,0,2.057-2.057V23.277A2.057,2.057,0,0,0,9.171,21.22H7.3a16.433,16.433,0,0,1,32.534,0H37.969a2.057,2.057,0,0,0-2.057,2.057V35.912A4.117,4.117,0,0,1,31.8,40.026H27.684V37.969H19.456v6.171H31.8a8.236,8.236,0,0,0,8.228-8.228,3.978,3.978,0,0,0,4.114-3.819V23.57A20.594,20.594,0,0,0,23.57,3Z"
+                                transform="translate(-3 -3)" fill="#1dbf73" />
+                        </svg>
+
+
+                        <p class="ms-2">24/7 Support</p>
+                    </div>
+                    <div class="feature-card__body mt-2">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore consequuntur ab odio!
+                            Inventore,
+                            labore culpa nulla quos dolore quas magni.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Choose Us -->
+
+    <!-- Latest Works -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="section-header mb-5">
+                <div class="section-header__title text-center">
+                    <p class="h2 fw-bold">Latest From Our Works</p>
+                    <span class="section-header__line"></span>
+                </div>
+            </div>
+            <div id="latest-works" class="splide">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <div class="card border-0">
+                                <div class="card-header p-0">
+                                    <img src="assets/images/latest-1.png" alt="" class="w-100">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center">
+                                        <img src="assets/images/user-1.jpg" alt="" class="rounded-circle"
+                                            style="height: 50px;">
+                                        <div class="ms-2">
+                                            <p class="mb-0 fw-bold">Photography</p>
+                                            <span class="text-muted">by John Doe</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="splide__slide">
+                            <div class="card border-0">
+                                <div class="card-header p-0">
+                                    <img src="assets/images/latest-2.png" alt="" class="w-100">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center">
+                                        <img src="assets/images/user-1.jpg" alt="" class="rounded-circle"
+                                            style="height: 50px;">
+                                        <div class="ms-2">
+                                            <p class="mb-0 fw-bold">Photography</p>
+                                            <span class="text-muted">by John Doe</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="splide__slide">
+                            <div class="card border-0">
+                                <div class="card-header p-0">
+                                    <img src="assets/images/latest-3.png" alt="" class="w-100">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center">
+                                        <img src="assets/images/user-1.jpg" alt="" class="rounded-circle"
+                                            style="height: 50px;">
+                                        <div class="ms-2">
+                                            <p class="mb-0 fw-bold">Photography</p>
+                                            <span class="text-muted">by John Doe</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="splide__slide">
+                            <div class="card border-0">
+                                <div class="card-header p-0">
+                                    <img src="assets/images/latest-4.png" alt="" class="w-100">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center">
+                                        <img src="assets/images/user-1.jpg" alt="" class="rounded-circle"
+                                            style="height: 50px;">
+                                        <div class="ms-2">
+                                            <p class="mb-0 fw-bold">Photography</p>
+                                            <span class="text-muted">by John Doe</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="splide__slide">
+                            <div class="card border-0">
+                                <div class="card-header p-0">
+                                    <img src="assets/images/latest-1.png" alt="" class="w-100">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center">
+                                        <img src="assets/images/user-1.jpg" alt="" class="rounded-circle"
+                                            style="height: 50px;">
+                                        <div class="ms-2">
+                                            <p class="mb-0 fw-bold">Photography</p>
+                                            <span class="text-muted">by John Doe</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="splide__slide">
+                            <div class="card border-0">
+                                <div class="card-header p-0">
+                                    <img src="assets/images/latest-2.png" alt="" class="w-100">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center">
+                                        <img src="assets/images/user-1.jpg" alt="" class="rounded-circle"
+                                            style="height: 50px;">
+                                        <div class="ms-2">
+                                            <p class="mb-0 fw-bold">Photography</p>
+                                            <span class="text-muted">by John Doe</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="splide__slide">
+                            <div class="card border-0">
+                                <div class="card-header p-0">
+                                    <img src="assets/images/latest-3.png" alt="" class="w-100">
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center">
+                                        <img src="assets/images/user-1.jpg" alt="" class="rounded-circle"
+                                            style="height: 50px;">
+                                        <div class="ms-2">
+                                            <p class="mb-0 fw-bold">Photography</p>
+                                            <span class="text-muted">by John Doe</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- End Latest Works -->
+
+    <!--What great about us  -->
+    <section class="section-padding bg-white">
+        <div class="section-header mb-5">
+            <div class="text-center">
+                <p class="h2 fw-bold">What's Great About Us</p>
+                <span class="section-header__line"></span>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-5 mb-lg-0">
+                    <h2 class="fw-bold mb-5">A whole world of freelance talent <br>at your finger tips</h2>
+                    <div class="row">
+                        <div class="mb-2">
+                            <i class="fas fa-check-circle fs-3 text-primary fa-fw"></i>
+                            <span class="h4">The best for every budget</span>
+                        </div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi quas exercitationem fugiat
+                            rem, minus facilis!</p>
+                    </div>
+
+                    <div class="row mt-3">
+                        <div class="mb-2">
+                            <i class="fas fa-check-circle fs-3 text-primary fa-fw"></i>
+                            <span class="h4">Protect payments, every time</span>
+                        </div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi quas exercitationem fugiat
+                            rem, minus facilis!</p>
+                    </div>
+
+                    <div class="row mt-3">
+                        <div class="mb-2">
+                            <i class="fas fa-check-circle fs-3 text-primary fa-fw"></i>
+                            <span class="h4">24/7 Support</span>
+                        </div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi quas exercitationem fugiat
+                            rem, minus facilis!</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="assets/svgs/setting-on-table.svg" alt="" class="w-100">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End great about us -->
+
+    <!-- Statistics -->
+    <section class="statistics section-padding">
+        <div class="container">
+            <div class="row g-5">
+                <div
+                    class="col-12 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-start align-items-center">
+                    <img src="assets/svgs/statistics-employers.svg" alt="" class="me-3">
+                    <div class="text-white">
+                        <h2 class="fw-bold mb-0">2600</h2>
+                        <span class="fs-4">Employers</span>
+                    </div>
+                </div>
+
+                <div
+                    class="col-12 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-start align-items-center">
+                    <img src="assets/svgs/statistics-freelancers.svg" alt="" class="me-3">
+                    <div class="text-white">
+                        <h2 class="fw-bold mb-0">3800</h2>
+                        <span class="fs-4">Freelancers</span>
+                    </div>
+                </div>
+
+                <div
+                    class="col-12 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-start align-items-center">
+                    <img src="assets/svgs/statistics-transactions.svg" alt="" class="me-3">
+                    <div class="text-white">
+                        <h2 class="fw-bold mb-0">$250m</h2>
+                        <span class="fs-4">Transactions</span>
+                    </div>
+                </div>
+
+                <div
+                    class="col-12 col-md-6 col-lg-3 d-flex justify-content-center justify-content-md-start align-items-center">
+                    <img src="assets/svgs/statistics-satisfaction.svg" alt="" class="me-3">
+                    <div class="text-white">
+                        <h2 class="fw-bold mb-0">99%</h2>
+                        <span class="fs-4">Satisfaction</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Statistics -->
+
+    <!-- Testimonial -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="section-header mb-5">
+                <div class="text-center">
+                    <p class="h2 fw-bold">What Our Client Says</p>
+                    <span class="section-header__line"></span>
+                </div>
+            </div>
+            <div id="testimonial-slider" class="splide">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <!-- Slide 1 -->
+                        <li class="splide__slide">
+                            <div class="card testimonial-card">
+                                <div class="card-body d-flex align-items-center">
+                                    <div class="testimonial-card__image">
+                                        <img src="assets/images/users/user-8.png" alt="user-8">
+                                    </div>
+                                    <div class="testimonial-card__content">
+                                        <p class="fst-italic text-justify">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Animi illum fugit corrupti tenetur inventore. Consequuntur sapiente
+                                            laboriosam eveniet facere iusto?
+                                        </p>
+                                        <div class="rating mt-2">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <div class="mt-2">
+                                            <p class="fw-bold">John Doe</p>
+                                            <span class="fs-6">General Manager</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- Slide 2 -->
+                        <li class="splide__slide">
+                            <div class="card testimonial-card">
+                                <div class="card-body d-flex align-items-center">
+                                    <div class="testimonial-card__image">
+                                        <img src="assets/images/users/user-1.png" alt="user-8">
+                                    </div>
+                                    <div class="testimonial-card__content">
+                                        <p class="fst-italic text-justify">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Animi illum fugit corrupti tenetur inventore. Consequuntur sapiente
+                                            laboriosam eveniet facere iusto?
+                                        </p>
+                                        <div class="rating mt-2">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <div class="mt-2">
+                                            <p class="fw-bold">Jonas Will</p>
+                                            <span class="fs-6">Managing Director</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- Slide 3 -->
+                        <li class="splide__slide">
+                            <div class="card testimonial-card">
+                                <div class="card-body d-flex align-items-center">
+                                    <div class="testimonial-card__image">
+                                        <img src="assets/images/users/user-2.png" alt="user-8">
+                                    </div>
+                                    <div class="testimonial-card__content">
+                                        <p class="fst-italic text-justify">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Animi illum fugit corrupti tenetur inventore. Consequuntur sapiente
+                                            laboriosam eveniet facere iusto?
+                                        </p>
+                                        <div class="rating mt-2">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <div class="mt-2">
+                                            <p class="fw-bold">Willam Somerset</p>
+                                            <span class="fs-6">Product Designer</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- Slide 4 -->
+                        <li class="splide__slide">
+                            <div class="card testimonial-card">
+                                <div class="card-body d-flex align-items-center">
+                                    <div class="testimonial-card__image">
+                                        <img src="assets/images/users/user-3.png" alt="user-8">
+                                    </div>
+                                    <div class="testimonial-card__content">
+                                        <p class="fst-italic text-justify">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Animi illum fugit corrupti tenetur inventore. Consequuntur sapiente
+                                            laboriosam eveniet facere iusto?
+                                        </p>
+                                        <div class="rating mt-2">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <div class="mt-2">
+                                            <p class="fw-bold">Sandra Dawson</p>
+                                            <span class="fs-6">Co Executive</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- Slide 5 -->
+                        <li class="splide__slide">
+                            <div class="card testimonial-card">
+                                <div class="card-body d-flex align-items-center">
+                                    <div class="testimonial-card__image">
+                                        <img src="assets/images/users/user-4.png" alt="user-8">
+                                    </div>
+                                    <div class="testimonial-card__content">
+                                        <p class="fst-italic text-justify">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Animi illum fugit corrupti tenetur inventore. Consequuntur sapiente
+                                            laboriosam eveniet facere iusto?
+                                        </p>
+                                        <div class="rating mt-2">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <div class="mt-2">
+                                            <p class="fw-bold">Hope Watson</p>
+                                            <span class="fs-6">Project Leader</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!-- Slide 6 -->
+                        <li class="splide__slide">
+                            <div class="card testimonial-card">
+                                <div class="card-body d-flex align-items-center">
+                                    <div class="testimonial-card__image">
+                                        <img src="assets/images/users/user-5.png" alt="user-8">
+                                    </div>
+                                    <div class="testimonial-card__content">
+                                        <p class="fst-italic text-justify">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Animi illum fugit corrupti tenetur inventore. Consequuntur sapiente
+                                            laboriosam eveniet facere iusto?
+                                        </p>
+                                        <div class="rating mt-2">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <div class="mt-2">
+                                            <p class="fw-bold">Ricardo Schmidt</p>
+                                            <span class="fs-6">Digital Marketer</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- End Testimonial -->
+
+    <!-- Blog -->
+    <section class="section-padding bg-white">
+        <div class="container">
+            <div class="section-header mb-5">
+                <div class="section-header__title text-center">
+                    <p class="h2 fw-bold">Latest From Our Blog</p>
+                    <span class="section-header__line"></span>
+                </div>
+            </div>
+
+            <div class="row g-3">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="blog-card card">
+                        <div class="blog-card__header">
+                            <img src="assets/images/blogs/blog-1.png" class="" alt="blog-1">
+                        </div>
+                        <div class="blog-card__body card-body">
+                            <p class="fw-bold">Digital marketing made easy</p>
+                            <span class="text-grey">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Aspernatur, illo?</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="blog-card card">
+                        <div class="blog-card__header">
+                            <img src="assets/images/blogs/blog-2.jpg" class="" alt="blog-1">
+                        </div>
+                        <div class="blog-card__body card-body">
+                            <p class="fw-bold">Start your online business now</p>
+                            <span class="text-grey">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Aspernatur, illo?</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="blog-card card">
+                        <div class="blog-card__header">
+                            <img src="assets/images/blogs/blog-3.jpg" class="" alt="blog-1">
+                        </div>
+                        <div class="blog-card__body card-body">
+                            <p class="fw-bold">Create your brand identity now</p>
+                            <span class="text-grey">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Aspernatur, illo?</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="blog-card card">
+                        <div class="blog-card__header">
+                            <img src="assets/images/blogs/blog-4.jpg" class="" alt="blog-1">
+                        </div>
+                        <div class="blog-card__body card-body">
+                            <p class="fw-bold">Make you memory alive</p>
+                            <span class="text-grey">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Aspernatur, illo?</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- More Blogs -->
+            <div class="d-flex justify-content-center mt-4">
+                <a class="text-primary text-decoration-none" href="pages/blog.html">See more news <i
+                        class="fas fa-angle-right"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- End Blog -->
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-6 col-md-3 mb-3 mb-md-0">
+                    <h5 class="fw-bold text-white">Categories</h5>
+                    <ul class="footer-widget">
+                        <li><a href="#" class="text-grey text-decoration-none">Photography</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Videography</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Graphic's Design</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Data Entry</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Video Editing</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Digital Marketing</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Writing & Translation</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Music & Audio</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-6 col-md-3 mb-3 mb-md-0">
+                    <h5 class="fw-bold text-white">About</h5>
+                    <ul class="footer-widget">
+                        <li><a href="#" class="text-grey text-decoration-none">Careers</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Press & News</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Partnership</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Privacy Policy</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Terms of Services</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Property Claims</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Investor Relation</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-3 mb-3 mb-md-0">
+                    <h5 class="fw-bold text-white">Comnunity</h5>
+                    <ul class="footer-widget">
+                        <li><a href="#" class="text-grey text-decoration-none">Events</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Blog</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Forum</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Community</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Podcast</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Invite a Friend</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Become a Seller</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3 mb-3 mb-md-0">
+                    <h5 class="fw-bold text-white">Support</h5>
+                    <ul class="footer-widget">
+                        <li><a href="#" class="text-grey text-decoration-none">Help & Support</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Selling Guide</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Buying Guide</a></li>
+                        <li><a href="#" class="text-grey text-decoration-none">Trust & Safety</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row border-top p-3">
+                <div class="col-sm-6 footer__copyright">
+                    <h4 class="d-flex justify-content-center justify-content-md-start mb-3 mb-md-0">
+                        <a class="text-decoration-none text-grey" href="https:999itsolution.com"><span>&#169;</span> BDLancers.com 2020</a>
+                    </h4>
+                </div>
+                <div class="col-sm-6 footer__social">
+                    <h4 class="d-flex justify-content-center justify-content-md-end">
+                        <a class="text-decoration-none text-grey" href="#"><i class="fab fa-facebook"></i></a>
+                        <a class="text-decoration-none text-grey" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="text-decoration-none text-grey" href="#"><i class="fab fa-linkedin"></i></a>
+                        <a class="text-decoration-none text-grey" href="#"><i class="fab fa-instagram"></i></a>
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer Section -->
+
+</body>
+
+</html>

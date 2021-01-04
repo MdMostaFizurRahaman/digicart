@@ -1,0 +1,44 @@
+/* Colors: */
+$dark: #1D4354;
+$black: #000;
+$primary: #1DBF73;
+$secondary: #067B44;
+$grey-dark: #777777;
+$grey: #BEBEBE;
+$grey-light: #d5d5d5;
+$danger: #FF0700;
+$link-color: #72BDF5;
+$light: #F1FDF7;
+$body-bg : #F5F5F5;
+$white: #ffffff;
+
+$font-size-root:              null !default;
+$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+$font-size-sm:                $font-size-base * .875 !default;
+$font-size-lg:                $font-size-base * 1.25 !default;
+
+
+$h1-font-size:                $font-size-base * 2.5 !default;
+$h2-font-size:                $font-size-base * 2 !default;
+$h3-font-size:                $font-size-base * 1.75 !default;
+$h4-font-size:                $font-size-base * 1.5 !default;
+$h5-font-size:                $font-size-base * 1.25 !default;
+$h6-font-size:                $font-size-base !default;
+
+$font-sizes: (
+  1: $h1-font-size,
+  2: $h2-font-size,
+  3: $h3-font-size,
+  4: $h4-font-size,
+  5: $h5-font-size,
+  6: $h6-font-size,
+  7: 14px,
+  8: 12px,
+);
+// scss-docs-end font-sizes
+
+
+// Pretty Checkbox
+$pretty--color-primary:$primary;
+$pretty--color-success:$primary;
+$pretty--color-dark:$dark;

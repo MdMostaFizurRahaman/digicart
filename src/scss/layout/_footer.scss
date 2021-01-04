@@ -1,0 +1,31 @@
+.footer{
+    min-height: 500px;
+    background-color: $dark;
+    a:hover{
+        color: $primary;
+    }
+
+    &__copyright{
+        a:hover{
+            color: $primary;
+        }
+    }
+
+    &__social{
+        a:not(:last-child){
+            margin-right: 2rem;
+        }
+
+        a:hover{
+            color: $primary;
+        }
+    }
+
+    &-widget{
+        list-style: none;
+
+        li{
+            line-height: 2.5rem;
+        }
+    }
+}

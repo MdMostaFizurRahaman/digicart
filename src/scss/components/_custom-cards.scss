@@ -1,0 +1,94 @@
+.testimonial-card {
+    padding: 1rem;
+    border: none;
+
+    &__image {
+        img {
+            height: 150px;
+            border-radius: 50%;
+
+        }
+    }
+
+    &__content {
+        margin-left: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.blog-card {
+    border: none;
+    border-radius: 0;
+    background: $white;
+    box-shadow: $box-shadow-sm;
+
+    &__header{
+        height: 300px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        
+        img{
+            width: 100%;
+            display: block;
+            transition: transform 0.5s;
+        }
+
+        &:hover img{
+            transform: scale(1.1);
+            transform-origin: center;
+        }
+    }
+
+    // &__overlay {
+    //     background: rgba($dark, 0.9);
+    // }
+
+    
+
+    &__body{
+
+        span{
+            display: block;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+
+
+}
+
+.job-card{
+    &:not(:last-child){
+        margin-bottom: 1rem;
+    }
+
+    &__title{
+        a:hover{
+            color: $primary;
+        }
+    }
+    &__links{
+        a{
+            text-decoration: none;
+            color: $primary;
+        }
+
+        a:not(:last-child){
+            margin-right: 1rem;
+        }
+        
+        a:hover{
+            color: $secondary;
+        }
+    }
+}
+
+// Example usage:
+@include media-breakpoint-up(md) {
+    .blog-card__header {
+        height: 200px;
+    }
+  }
